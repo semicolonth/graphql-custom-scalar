@@ -11,6 +11,8 @@ $ npm install
 ```
 
 ## How to start GraphQL server
+* .env file must be created in the root directory of the project
+* start server.js by this command
 ```
 $ nodemon server.js --watch server.js --watch schema.js
 ```
